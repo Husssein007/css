@@ -1,0 +1,140 @@
+
+    
+     
+
+body{
+    background-image: url(https://i.pinimg.com/564x/c1/a7/34/c1a734f91a8b63f4feb542a5c2a30120.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.logo{
+    color: orangered;
+    font-size: 50px;
+
+    font-family: Arial;
+    padding-left: 25px;
+    float: left;
+    padding-top: 15px;
+
+}
+h3 a{color: rgb(255, 255, 255);
+    width: 300px;
+    height: 150px;
+    }  
+h3{
+    width:500px;
+    height: auto;
+    font-family:'Times New Roman',
+}    
+h4{color: rgb(241, 239, 239);
+    font-weight: bold;
+    width: 800px;
+    height: auto;
+    margin: 20px;
+    font-family: Arial;
+
+}
+
+h5{color: aliceblue;
+    font-weight: bold;
+    width: 800px;
+    height: auto;
+    margin: 20px;
+    font-family: Arial;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 100px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 80px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(254, 253, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s;
+
+}
+ul li a:hover{
+    color: orangered;
+}
+h2{color: rgb(209, 40, 10);
+font-family: 'Franklin Gothic Medium';
+font-weight: bold;
+}
+
+
+.Search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.btn :focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 800px;
+    height: auto;
+    margin: 20px;
+    color: rgb(180, 171, 166);
+    position: relative;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+}
+ol{
+    color: bisque;
+    width: 800px;
+}
+li a{
+    color: bisque;
+    width: 800px;
+}
